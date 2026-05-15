@@ -1,0 +1,17 @@
+# Secrets
+secrets/*
+!secrets/.gitkeep
+
+# Environment
+.env
+*.env
+
+# Data
+data/
+
+# Certificates
+*.key
+*.crt
+
+# Docker
+.dockerignore
