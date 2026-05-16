@@ -6,7 +6,7 @@ RUN apk add --no-cache \
     php-mysqli php-curl php-mbstring php-xml php-zip php-openssl \
     php-gd php-session php-intl php-fileinfo php-exif php-ctype \
     php-dom php-iconv php-simplexml php-xmlreader php-xmlwriter \
-    php-sodium \
+    php-sodium php-phar \
     mariadb-client
 
 RUN wget -O /usr/local/bin/wp https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar \
